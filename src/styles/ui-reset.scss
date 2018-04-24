@@ -1,0 +1,29 @@
+@import '~scss_vars';
+
+/* 侧边导航栏 */
+
+.el-menu {
+    border-right: 0;
+    .el-menu-item {
+        text-align: left;
+        padding: 0 15px!important;
+        span {
+            font-weight: bold;
+            font-size: 14px;
+        }
+    }
+}
+.el-menu--collapse {
+    width: 55px;
+    .el-tooltip { padding: 0 15px!important; }
+}
+
+
+/* 面包屑 */
+
+.el-breadcrumb__separator {
+    color: $breadcrumb-color;
+}
+.el-breadcrumb__inner {
+    color: $breadcrumb-color;
+}

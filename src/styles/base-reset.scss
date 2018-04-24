@@ -1,0 +1,10 @@
+@import './vars.scss';
+
+
+/* 基础样式重置 */
+body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: $body-color;
+    background-color: transparent;
+    -webkit-font-smoothing: antialiased;
+}
